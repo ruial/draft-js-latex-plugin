@@ -1,0 +1,35 @@
+{
+  "name": "draft-js-latex-plugin",
+  "version": "0.1.0",
+  "description": "Draft.js LaTeX Plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruial/draft-js-latex-plugin.git"
+  },
+  "keywords": [
+    "draftjs",
+    "editor",
+    "react",
+    "plugin",
+    "latex"
+  ],
+  "author": "Rui Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruial/draft-js-latex-plugin/issues"
+  },
+  "homepage": "https://github.com/ruial/draft-js-latex-plugin#readme",
+  "devDependencies": {
+    "draft-js": "^0.11.7",
+    "katex": "^0.12.0",
+    "react": "^17.0.1"
+  },
+  "peerDependencies": {
+    "draft-js": ">=0.11.0",
+    "katex": ">=0.12.0"
+  }
+}
