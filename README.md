@@ -11,13 +11,13 @@ npm i draft-js-latex-plugin
 ## Usage
 
 ```javascript
-import { getKaTeXPlugin } from 'draft-js-latex-plugin'
-import 'draft-js-latex-plugin/katex/dist/styles.css'
+import { getLaTeXPlugin } from 'draft-js-latex-plugin'
+import 'draft-js-latex-plugin/lib/styles.css'
 import 'katex/dist/katex.min.css'
 
-const KaTeXPlugin = getKaTeXPlugin()
+const LaTeXPlugin = getLaTeXPlugin()
 
-const plugins = [KaTeXPlugin]
+const plugins = [LaTeXPlugin]
 ```
 
 ## Key bindings
