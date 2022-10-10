@@ -1,6 +1,6 @@
 {
   "name": "draft-js-latex-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Draft.js LaTeX Plugin",
   "main": "lib/index.js",
   "scripts": {
@@ -25,11 +25,11 @@
   "homepage": "https://github.com/ruial/draft-js-latex-plugin#readme",
   "devDependencies": {
     "draft-js": "^0.11.7",
-    "katex": "^0.12.0",
+    "katex": "^0.16.0",
     "react": "^17.0.1"
   },
   "peerDependencies": {
-    "draft-js": ">=0.11.0",
-    "katex": ">=0.12.0"
+    "draft-js": "^0.11.7",
+    "katex": "^0.16.0"
   }
 }
